@@ -1,0 +1,72 @@
+﻿<link href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    .font1 {
+        font-family: 'cwTeXHei';
+    }
+</style>
+<head>
+    <!-- CSS -->
+    <!-- load bootstrap (bootswatch version) -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS -->
+    <link rel="shortcut icon" href="../favicon.ico">
+    @*<link rel="stylesheet" type="text/css" href="~/Content/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="~/Content/demo.css" />
+        <link rel="stylesheet" type="text/css" href="~/Content/component.css" />
+        <script src="~/Scripts/snap.svg-min.js"></script>*@
+    <!-- load angular, ngRoute, ngAnimate -->
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+    <script src="~/Scripts/app.js"></script>
+</head>
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt"></header>
+    <!-- Menu -->
+    <nav id="menu">
+        <link rel="stylesheet" href="~/Content/main.css" />
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="landing.html">Landing</a></li>
+            <li><a href="generic.html">Generic</a></li>
+            <li><a href="elements.html">Elements</a></li>
+        </ul>
+        <ul class="actions vertical">
+            <li><a href="#" class="button special fit">Get Started</a></li>
+            <li><a href="#" class="button fit">Log In</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+
+    <section id="one" class="tiles">
+        @*<h1>Let's Play</h1>
+            @*<p class="lead">D3.js is a JavaScript library that helps you create beautiful data visualizations.</p>*@
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="font1">新聞</h1>
+                <p class="font1">
+                    搜尋相關新聞:
+                    <input type="text" placeholder="輸入文字">
+                    <a href="~/Content/back.png"><input type="submit" value="確認" /></a>
+
+                </p>
+                <h4 class="font1">以下為"K他命"相關新聞:</h4>
+
+                    <img src="~/Content/kk.png" height="380" width="320"  />
+
+         
+            </div>
+        </div>
+        <a href="@Url.Action("news", "Home")">
+            <img src="~/Content/back_button.png" height="40" width="40" style="float:right" />
+        </a>
+    </section>
+</div>
+
+

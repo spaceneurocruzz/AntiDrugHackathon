@@ -1,0 +1,101 @@
+﻿
+<link href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css" type="text/css" rel="stylesheet" />       
+<style type="text/css">
+        .font1
+        {
+            font-family:'cwTeXHei';
+        }
+</style>
+<head>
+    <!-- CSS -->
+    <!-- load bootstrap (bootswatch version) -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS -->
+    <link rel="shortcut icon" href="../favicon.ico">
+    @*<link rel="stylesheet" type="text/css" href="~/Content/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/demo.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/component.css" />
+    <script src="~/Scripts/snap.svg-min.js"></script>*@
+    <!-- load angular, ngRoute, ngAnimate -->
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+    <script src="~/Scripts/app.js"></script>
+</head>
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+    </header>
+        <!-- Menu -->
+        <nav id="menu">
+            <link rel="stylesheet" href="~/Content/main.css" />
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="landing.html">Landing</a></li>
+                <li><a href="generic.html">Generic</a></li>
+                <li><a href="elements.html">Elements</a></li>
+            </ul>
+            <ul class="actions vertical">
+                <li><a href="#" class="button special fit">Get Started</a></li>
+                <li><a href="#" class="button fit">Log In</a></li>
+            </ul>
+        </nav>
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <link rel="stylesheet" href="~/Content/main.css" />
+            <header class="major">
+                <img src="~/Content/drugfreezonenobg.jpeg" height="210" width="220"/>
+                @*<h1>Drug addiction game</h1>*@
+            </header>
+            <div class="content">
+               
+                <p>design by live long and prosper</p> 
+                
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">旅程開始</a></li>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 10 80 90">
+                                               <path d="m0,50
+                            l20,0 l5,-5 l5,15 l5,-40
+                            l5,40 l5,-15 l5,5 l20, 0"
+                                                      class='path1' />
+
+                        <path d="m0,50
+                            l18,0 l5,-5 l5,15 l5,-40
+                            l5,40 l5,-15 l5,5 l22, 0"
+                                                      class='path2' />
+                    </svg>
+                </ul>
+               
+                        @*<svg width="300px" height="128px" viewBox="0 0 54 64" version="1.1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                        <defs></defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                            <path class="beat-loader" d="M0.5,38.5 L16,38.5 L19,25.5 L24.5,57.5 L31.5,7.5 L37.5,46.5 L43,38.5 L53.5,38.5" id="Path-2" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                        </g>
+                    </svg>*@
+            </div>
+        </div>
+    </section>
+    <section id="one" class="tiles">
+        @*<h1>Let's Play</h1>
+    @*<p class="lead">D3.js is a JavaScript library that helps you create beautiful data visualizations.</p>*@  
+        <div class="row">
+            <div class="col-md-4">
+                <h2 >DRUG FREE ZONE</h2>
+                <p class="font1">為幫助民眾更容易了解反毒相關知識，此app彙整各大網站及搜尋，希望能讓使用者有更好的互動及資訊獲取。</p>
+                <h5 class="font1">那就開始吧!</h5>
+                <ul class="font1">
+                    <li>繁體中文</li>
+                    <li>英文</li>
+                </ul>
+                <p><a class="btn btn-success btn-lg" href="@Url.Action("GO", "Home")">GO! &raquo;</a></p>
+            </div>
+        </div>
+    </section>
+</div>

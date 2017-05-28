@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "First";
+}
+
+
+<link href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    .font1 {
+        font-family: 'cwTeXHei';
+    }
+</style>
+<head>
+    <!-- CSS -->
+    <!-- load bootstrap (bootswatch version) -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/main.css" />
+
+    <!-- JS -->
+    @*@<link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="~/Content/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="~/Content/demo.css" />
+        <link rel="stylesheet" type="text/css" href="~/Content/component.css" />
+        <script src="js/snap.svg-min.js"></script>
+        <!-- load angular, ngRoute, ngAnimate -->
+        <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+        <script src="app.js"></script>*@
+</head>
+<!-- Header -->
+<header id="header" class="alt"></header>
+<!-- Menu -->
+<nav id="menu">
+    <link rel="stylesheet" href="~/Content/main.css" />
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="landing.html">Landing</a></li>
+        <li><a href="generic.html">Generic</a></li>
+        <li><a href="elements.html">Elements</a></li>
+    </ul>
+    <ul class="actions vertical">
+        <li><a href="#" class="button special fit">Get Started</a></li>
+        <li><a href="#" class="button fit">Log In</a></li>
+    </ul>
+</nav>
+
+<section id="banner" class="major">
+    <div class="inner">
+            <h1>aa</h1>
+            <h2>First</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Choose your character</h2>
+                    <p>This is a basic D3 example that shows how you can load data with D3.</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Basic D3 setup</li>
+                        <li>Loading Data</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("DataLoading", "TagDemos")">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Scales and Axes</h2>
+                    <p>This is a basic D3 example that illustrates the differences between various scales.</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Scales</li>
+                        <li>Axes</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("ScalesAndAxes", "Home")">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Updating Data</h2>
+                    <p>A simple demo that shows how D3 handles data updates.</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Updating Data</li>
+                        <li>Handling Events</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("UpdatingData", "Home")">Learn more &raquo;</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Bar Chart</h2>
+                    <p>Takes the data from the Data Loading example and creates a bar chart.</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Creating SVG Elements</li>
+                        <li>Axes</li>
+                        <li>Scales</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("BasicBarChart", "TagDemos")">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Force Layout</h2>
+                    <p>A demo of the popular Force Layout</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Layouts</li>
+                        <li>Force Layout</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("ForceLayout", "Home")">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Try</h2>
+                    <p>A demo</p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>L</li>
+                        <li>F</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="@Url.Action("Bubble", "Home")">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+</section>

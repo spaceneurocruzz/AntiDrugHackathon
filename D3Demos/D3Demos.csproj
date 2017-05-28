@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00181CCF-D1B4-4283-A452-6EA8BD19CCC7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>D3Demos</RootNamespace>
+    <AssemblyName>D3Demos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\TagDataPointController.cs" />
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\GHDataPointController.cs" />
+    <Compile Include="Controllers\TagDemosController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataSetResponse.cs" />
+    <Compile Include="Models\GHDataPoint.cs" />
+    <Compile Include="Models\TagDataPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\Back-64.png" />
+    <Content Include="Content\back.png" />
+    <Content Include="Content\back_button.png" />
+    <Content Include="Content\banner.jpg" />
+    <Content Include="Content\bb.jpg" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bourbon-neat\readme.txt" />
+    <Content Include="Content\chat.png" />
+    <Content Include="Content\Compact Camera-64.png" />
+    <Content Include="Content\component.css" />
+    <Content Include="Content\demo.css" />
+    <Content Include="Content\drugfreezonenobg.jpeg" />
+    <Content Include="Content\drugs per year by CAT.png" />
+    <Content Include="Content\drugs per year by level.png" />
+    <Content Include="Content\drugs per year_Total.png" />
+    <Content Include="Content\Facebook-40.png" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Go.css" />
+    <Content Include="Content\Google Plus-50.png" />
+    <Content Include="Content\index.css" />
+    <Content Include="Content\Instagram Old-64.png" />
+    <Content Include="Content\K.jpg" />
+    <Content Include="Content\kk.png" />
+    <Content Include="Content\LINE-64.png" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\normalize.css" />
+    <Content Include="Content\pic01.jpg" />
+    <Content Include="Content\pic02.jpg" />
+    <Content Include="Content\pic03.jpg" />
+    <Content Include="Content\pic04.jpg" />
+    <Content Include="Content\pic05.jpg" />
+    <Content Include="Content\pic06.jpg" />
+    <Content Include="Content\pic07.jpg" />
+    <Content Include="Content\pic08.jpg" />
+    <Content Include="Content\pic09.jpg" />
+    <Content Include="Content\pic10.jpg" />
+    <Content Include="Content\pic11.jpg" />
+    <Content Include="Content\preloader.gif" />
+    <Content Include="Content\quit per year by age.png" />
+    <Content Include="Content\quit per year by EDU.png" />
+    <Content Include="Content\quit per year by GEN.png" />
+    <Content Include="Content\quit per year_Total.png" />
+    <Content Include="Content\Stack of Tweets-40.png" />
+    <Content Include="Content\taiwan.png" />
+    <Content Include="Content\tt.png" />
+    <Content Include="Content\tt2.png" />
+    <Content Include="Content\TW-01-301000100G-000017.xml" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="Data\StackOverflow.json" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Data\population.csv" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\cwTeXHei-zhonly.ttf" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Content\COUNTY_MOI_1060503.CPG" />
+    <Content Include="Content\COUNTY_MOI_1060503.dbf" />
+    <Content Include="Content\COUNTY_MOI_1060503.prj" />
+    <Content Include="Content\COUNTY_MOI_1060503.shp" />
+    <Content Include="Content\COUNTY_MOI_1060503.shx" />
+    <Content Include="Data\taiwan.json" />
+    <Content Include="Data\cities.csv" />
+    <Content Include="Data\TaiwanCenter.json" />
+    <Content Include="Content\bourbon\_bourbon.scss" />
+    <Content Include="Content\bourbon\_bourbon-deprecated-upcoming.scss" />
+    <Content Include="Content\bourbon\LICENSE" />
+    <Content Include="Content\bourbon\helpers\_shape-size-stripper.scss" />
+    <Content Include="Content\bourbon\helpers\_render-gradients.scss" />
+    <Content Include="Content\bourbon\helpers\_radial-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_radial-arg-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_linear-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_gradient-positions-parser.scss" />
+    <Content Include="Content\bourbon\helpers\_deprecated-webkit-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_transition-property-name.scss" />
+    <Content Include="Content\bourbon\functions\_tint-shade.scss" />
+    <Content Include="Content\bourbon\functions\_radial-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_px-to-em.scss" />
+    <Content Include="Content\bourbon\functions\_modular-scale.scss" />
+    <Content Include="Content\bourbon\functions\_linear-gradient.scss" />
+    <Content Include="Content\bourbon\functions\_grid-width.scss" />
+    <Content Include="Content\bourbon\functions\_flex-grid.scss" />
+    <Content Include="Content\bourbon\functions\_compact.scss" />
+    <Content Include="Content\bourbon\css3\_user-select.scss" />
+    <Content Include="Content\bourbon\css3\_transition.scss" />
+    <Content Include="Content\bourbon\css3\_transform.scss" />
+    <Content Include="Content\bourbon\css3\_radial-gradient.scss" />
+    <Content Include="Content\bourbon\css3\_placeholder.scss" />
+    <Content Include="Content\bourbon\css3\_perspective.scss" />
+    <Content Include="Content\bourbon\css3\_linear-gradient.scss" />
+    <Content Include="Content\bourbon\css3\_keyframes.scss" />
+    <Content Include="Content\bourbon\css3\_inline-block.scss" />
+    <Content Include="Content\bourbon\css3\_image-rendering.scss" />
+    <Content Include="Content\bourbon\css3\_hidpi-media-query.scss" />
+    <Content Include="Content\bourbon\css3\_font-face.scss" />
+    <Content Include="Content\bourbon\css3\_flex-box.scss" />
+    <Content Include="Content\bourbon\css3\_columns.scss" />
+    <Content Include="Content\bourbon\css3\_box-sizing.scss" />
+    <Content Include="Content\bourbon\css3\_border-radius.scss" />
+    <Content Include="Content\bourbon\css3\_border-image.scss" />
+    <Content Include="Content\bourbon\css3\_background.scss" />
+    <Content Include="Content\bourbon\css3\_background-image.scss" />
+    <Content Include="Content\bourbon\css3\_backface-visibility.scss" />
+    <Content Include="Content\bourbon\css3\_appearance.scss" />
+    <Content Include="Content\bourbon\css3\_animation.scss" />
+    <Content Include="Content\bourbon\addons\_triangle.scss" />
+    <Content Include="Content\bourbon\addons\_timing-functions.scss" />
+    <Content Include="Content\bourbon\addons\_size.scss" />
+    <Content Include="Content\bourbon\addons\_retina-image.scss" />
+    <Content Include="Content\bourbon\addons\_prefixer.scss" />
+    <Content Include="Content\bourbon\addons\_position.scss" />
+    <Content Include="Content\bourbon\addons\_html5-input-types.scss" />
+    <Content Include="Content\bourbon\addons\_hide-text.scss" />
+    <Content Include="Content\bourbon\addons\_font-family.scss" />
+    <Content Include="Content\bourbon\addons\_clearfix.scss" />
+    <Content Include="Content\bourbon\addons\_button.scss" />
+    <Content Include="Content\bourbon-neat\_neat.scss" />
+    <Content Include="Content\bourbon-neat\_neat-helpers.scss" />
+    <Content Include="Content\bourbon-neat\settings\_visual-grid.scss" />
+    <Content Include="Content\bourbon-neat\settings\_grid.scss" />
+    <Content Include="Content\bourbon-neat\grid\_visual-grid.scss" />
+    <Content Include="Content\bourbon-neat\grid\_to-deprecate.scss" />
+    <Content Include="Content\bourbon-neat\grid\_span-columns.scss" />
+    <Content Include="Content\bourbon-neat\grid\_shift.scss" />
+    <Content Include="Content\bourbon-neat\grid\_row.scss" />
+    <Content Include="Content\bourbon-neat\grid\_reset.scss" />
+    <Content Include="Content\bourbon-neat\grid\_private.scss" />
+    <Content Include="Content\bourbon-neat\grid\_pad.scss" />
+    <Content Include="Content\bourbon-neat\grid\_outer-container.scss" />
+    <Content Include="Content\bourbon-neat\grid\_omega.scss" />
+    <Content Include="Content\bourbon-neat\grid\_media.scss" />
+    <Content Include="Content\bourbon-neat\grid\_grid.scss" />
+    <Content Include="Content\bourbon-neat\grid\_fill-parent.scss" />
+    <Content Include="Content\bourbon-neat\functions\_private.scss" />
+    <Content Include="Content\bourbon-neat\functions\_new-breakpoint.scss" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\Bubble.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\d3.v3.js" />
+    <Content Include="Scripts\d3.v3.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.scrollex.min.js" />
+    <Content Include="Scripts\jquery.scrolly.min.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\skel.min.js" />
+    <Content Include="Scripts\snap.svg-min.js" />
+    <Content Include="Scripts\svgLoader.js" />
+    <Content Include="Scripts\util.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\TagDemos\DataLoading.cshtml" />
+    <Content Include="Views\TagDemos\BasicBarChart.cshtml" />
+    <Content Include="Views\Home\ScalesAndAxes.cshtml" />
+    <Content Include="Views\Home\UpdatingData.cshtml" />
+    <Content Include="Views\Home\ForceLayout.cshtml" />
+    <Content Include="Views\Home\Map.cshtml" />
+    <Content Include="Views\Home\Bubble.cshtml" />
+    <Content Include="Views\Home\First.cshtml" />
+    <Content Include="Views\Home\go.cshtml" />
+    <Content Include="Views\Home\about.cshtml" />
+    <Content Include="Views\Home\Announce.cshtml" />
+    <Content Include="Views\TagDemos\Taipei.cshtml" />
+    <Content Include="Views\Home\news.cshtml" />
+    <Content Include="Views\Home\categories.cshtml" />
+    <Content Include="Views\Home\data.cshtml" />
+    <Content Include="Views\Home\sign.cshtml" />
+    <Content Include="Views\Home\off.cshtml" />
+    <Content Include="Views\Home\rules.cshtml" />
+    <Content Include="Views\Home\share.cshtml" />
+    <Content Include="Views\Home\news2.cshtml" />
+    <Content Include="Views\Home\photo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56171</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51456/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

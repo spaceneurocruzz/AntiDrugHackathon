@@ -1,0 +1,64 @@
+﻿<link href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    .font1 {
+        font-family: 'cwTeXHei';
+    }
+</style>
+@{ 
+    ViewBag.Title = "台北市通報機關";
+}
+<h2 class="font1">@ViewBag.Title</h2>
+<div class="row">
+    <div class="col-md-8">
+        <p></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th class="font1">機構</th>
+                    <th class="font1">地址</th>
+                    <th class="font1">電話</th>
+                    <th>EMail</th>
+                </tr>
+            </thead>
+            <tbody id="tagTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/d3")
+@section Scripts{
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $.getJSON("/api/tags", function (data) {
+            buildVisualization(data);
+        });
+    });
+
+    function buildVisualization(dataSet) {
+        d3.select("#tagTableBody")
+          .selectAll("tr")
+          .data(dataSet)
+          .enter()
+          .append("tr")
+          .html(function (dataPoint) {
+              var message = "<td>" + dataPoint.Place + "</td>";
+              message += "<td>" + dataPoint.Address + "</td>";
+              message += "<td>" + dataPoint.Tel + "</td>";
+              message += "<td>" + dataPoint.Mail + "</td>";
+              return message;
+          });
+    }
+    </script>
+}
+
+<a href="@Url.Action("Announce", "Home")">
+    <img src="~/Content/back_button.png" height="40" width="40" style="float:right" />
+</a>  
+
+
+<a href="https://map.antiktami.org/victims/new"><p class="font1">回報受害地點</p>
+</a>  

@@ -1,0 +1,160 @@
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll.config
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.pdb
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Microsoft.Web.Infrastructure.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\WebGrease.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.xml
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.pdb
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.csprojResolveAssemblyReference.cache
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.dll
+D:\C# exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.pdb
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.csprojResolveAssemblyReference.cache
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.pdb
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll.config
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.pdb
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\WebGrease.dll
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.xml
+D:\MVC-exercises\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.pdb
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll.config
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\D3Demos.pdb
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\WebGrease.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\Newtonsoft.Json.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Net.Http.Formatting.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Helpers.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Http.WebHost.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Mvc.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Optimization.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.Razor.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\System.Web.WebPages.Razor.xml
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\bin\Antlr3.Runtime.pdb
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.csprojResolveAssemblyReference.cache
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.dll
+C:\Users\conan\OneDrive\Documents\Visual Studio 2015\Projects\D3-DotNetMVC-Demos-master\D3Demos\obj\Debug\D3Demos.pdb
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\D3Demos.dll.config
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\D3Demos.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\D3Demos.pdb
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\Antlr3.Runtime.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\Newtonsoft.Json.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Net.Http.Formatting.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Helpers.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.WebHost.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Mvc.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Optimization.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Razor.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Deployment.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Razor.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\WebGrease.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\Newtonsoft.Json.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Net.Http.Formatting.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Helpers.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.WebHost.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Mvc.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Optimization.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.Razor.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Deployment.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Razor.xml
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\bin\Antlr3.Runtime.pdb
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.csprojResolveAssemblyReference.cache
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.dll
+D:\MVC-exercises\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.pdb
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\D3Demos.dll.config
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\D3Demos.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\D3Demos.pdb
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\Antlr3.Runtime.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\Newtonsoft.Json.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Net.Http.Formatting.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Helpers.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.WebHost.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Mvc.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Optimization.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Razor.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Razor.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\WebGrease.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\Newtonsoft.Json.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Net.Http.Formatting.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Helpers.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Http.WebHost.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Mvc.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Optimization.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.Razor.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\System.Web.WebPages.Razor.xml
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\bin\Antlr3.Runtime.pdb
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.csprojResolveAssemblyReference.cache
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.dll
+C:\Users\conan\Desktop\V2\AntiDrug-Hackathon\D3Demos\obj\Debug\D3Demos.pdb
