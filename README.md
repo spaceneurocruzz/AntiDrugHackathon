@@ -1,4 +1,4 @@
-20170528 台灣食品藥物管理署反毒黑克松
+May 28, May 29, 2017 台灣食品藥物管理署反毒黑克松
 
 隊名: LiVe LoNG aND prOsPeR
 作品題目: Drug Free Zone
@@ -19,10 +19,10 @@
 資源: DustinEwers/D3-DotNetMVC-Demos
 
 
-20170528 Ministry of Drug and Welfare- Anti-Drug Hackathon
+May 28, May 29, 2017 Taiwan Ministry of Drug and Welfare- Anti-Drug Hackathon
 Team Name: LiVe LoNG aND prOsPeR
 Project:  Drug Free Zone
-Aim: An app for integrating resources from government and existed websites.
+Aim: An app for integrating drug resources from government and existed websites.
 
 Open data: http://law.moj.gov.tw/, http://data.gov.tw/
 Resources: DustinEwers/D3-DotNetMVC-Demos
@@ -30,5 +30,3 @@ Resources: DustinEwers/D3-DotNetMVC-Demos
 Please let me know if I am missing any reference. :)
 
 
-# AntiDrugHackathon
-# AntiDrugHackathon
